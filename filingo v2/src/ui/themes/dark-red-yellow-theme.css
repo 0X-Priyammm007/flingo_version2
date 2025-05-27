@@ -1,0 +1,29 @@
+.root {
+    -fx-background-color: #232323;
+    -fx-font-size: 18px;
+    -fx-text-fill: #f4f6fb;
+}
+.button {
+    -fx-background-color: #c62828;      /* Red background */
+    -fx-text-fill: #fffde7;             /* Light yellow text */
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow(three-pass-box, #ffeb3b, 3, 0, 0, 2); /* yellow shadow */
+}
+.button:hover {
+    -fx-background-color: #ffeb3b;      /* Yellow on hover */
+    -fx-text-fill: #c62828;             /* Red text on hover */
+}
+.label {
+    -fx-text-fill: #fffde7;
+}
+.dialog-pane {
+    -fx-background-color: #232323;
+}
+.text-field {
+    -fx-background-color: #333;
+    -fx-text-fill: #fffde7;
+    -fx-highlight-fill: #ffeb3b;
+    -fx-highlight-text-fill: #c62828;
+    -fx-prompt-text-fill: #b71c1c;
+}
